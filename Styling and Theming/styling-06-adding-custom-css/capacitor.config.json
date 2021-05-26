@@ -1,0 +1,8 @@
+{
+  "appId": "com.academind.firstionicapp",
+  "appName": "BMI Calculator",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "build",
+  "cordova": {}
+}

@@ -1,0 +1,42 @@
+1) import { Plugins ,CameraResultType , CameraSource, FilesystemDirectory , Capacitor } from '@capacitor/core';
+2) const { Camera, Filesystem , Storage} = Plugins;
+3) Camera.getPhoto(....);   ---- photo.webPath  ---- photo.path
+4) CameraResultType.Uri;
+5) CameraSource.Camera;
+6) object-fit: cover;
+7) FilesystemDirectory.Data
+8) @ionic/react-hooks
+9) import {base64FromPath} from '@ionic/react-hooks/filesystem';
+10) Storage.set()
+11) Storage.get() 
+12) Filesystem.readFile()
+13) @ionic/pwa-elements
+14) import { defineCustomElements } from '@ionic/pwa-elements/loader';
+15) Capacitor.isPluginAvailable('Camera');
+16) const fr = new FileReader();
+    fr.onload = () => {
+      setTakenPhoto({
+        path: undefined,
+        preview: fr.result!.toString()
+      })
+    }
+    fr.readAsDataURL(file);
+
+
+17) lazy loading
+18) const NewMemory = React.lazy(() => import('./pages/NewMemory'));
+19) <React.Suspense fallback={<IonSpinner />}>
+20) serviceWorker.register();
+21) firebase
+22) npm install -g firebase-tools
+
+More on Capacitor: https://capacitor.ionicframework.com/
+In addition, these resources might be worth a look:
+
+Deploying as a Web App (Official Docs): https://ionicframework.com/docs/publishing/progressive-web-app
+Deploying as an Android App (Official Docs): https://ionicframework.com/docs/publishing/play-store
+Deploying as an iOS App (Official Docs): https://ionicframework.com/docs/publishing/app-store
+
+
+
+web app online (Firebase) --> https://ionic-react-memories-dem-744b0.web.app

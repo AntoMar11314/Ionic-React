@@ -1,0 +1,2 @@
+Ionic Styling & Theming Docs: https://ionicframework.com/docs/theming/basics
+Ionic Color Generator: https://ionicframework.com/docs/theming/color-generator

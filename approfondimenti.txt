@@ -1,0 +1,29 @@
+1) npm install -g @ionic/cli --> OK
+2) import { IonCardContent, IonIcon, IonItem, IonLabel,  IonTitle, IonToolbar, IonAlert,IonSegment,IonSegmentButton, IonButtons, IonBackButton, IonTabBar, IonTabButton, IonTabs, IonMenu ,IonList , IonMenuButton, IonMenuToggle, IonCardHeader, IonCardTitle , IonCardSubtitle, IonItemSliding, IonItemOptions, IonItemOption , IonFab, IonFabButton, isPlatform, IonToast, IonModal, IonDatetime , IonToggle, IonSelect  } from '@ionic/react';
+3) useRef (react) --> OK
+4) react-scripts build --> OK
+5) ionic integrations enable capacitor --> OK
+6) ionic capacitor add android --> OK
+7) ionic capacitor copy android --> OK
+8) npx cap open android --> OK
+9) ionic capacitor run android  (  -l   ) --> OK
+10) Responsive Grid --> OK
+11) import { IonReactRouter } from '@ionic/react-router';  --> OK
+12) IonRouterOutlet --> from @ionic/react  --> OK
+13) import { useHistory , useParams , Switch } from 'react-router-dom'; --> OK
+14) event.stopPropagation() --> OK
+15) .bind() ---> react --> OK
+16) slidingOptionsRef.current?.closeOpened(); --> OK
+17) React.createContext()  --> OK
+18) React.createContext().Provider  --> OK
+19) useContext();  --> OK
+
+
+More on React Context API: https://reactjs.org/docs/context.html
+
+
+
+
+punto 2 ho studiato :
+IonApp, IonButton,IonCard, IonCol, IonGrid, IonContent,
+IonHeader, IonInput, IonRow, IonPage ,
